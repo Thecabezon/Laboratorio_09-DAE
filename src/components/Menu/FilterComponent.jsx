@@ -5,7 +5,7 @@ const FilterComponent = ({ categories, selectedCategory, onFilterChange }) => {
         <div className="mb-4">
             <h4 className="mb-2">Filtrar por categoría:</h4>
             <div className="btn-group">
-                <button 
+                <button
                     className={`btn ${selectedCategory === 'all' ? 'btn-primary' : 'btn-outline-primary'}`}
                     onClick={() => onFilterChange('all')}
                 >
@@ -25,4 +25,4 @@ const FilterComponent = ({ categories, selectedCategory, onFilterChange }) => {
     );
 };
 
-export default FilterComponent;  // Asegurar el export default
+export default FilterComponent;
