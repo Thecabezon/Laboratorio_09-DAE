@@ -107,7 +107,6 @@ function App() {
             />
           </Routes>
         </main>
-        
         <FooterComponent />
       </div>
     </Router>

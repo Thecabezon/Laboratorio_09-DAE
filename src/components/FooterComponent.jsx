@@ -12,19 +12,26 @@ const FooterComponent = () => {
                     <div className="col-md-4">
                         <h5>Enlaces Rápidos</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="text-white">Inicio</a></li>
-                            <li><a href="#" className="text-white">Categorías</a></li>
-                            <li><a href="#" className="text-white">Contacto</a></li>
+                            <li><a href="/" className="text-white">Inicio</a></li>
+                            <li><a href="/categorias" className="text-white">Categorías</a></li>
+                            <li><a href="/favoritos" className="text-white">Favoritos</a></li>
                         </ul>
                     </div>
                     <div className="col-md-4">
-                        <h5>Síguenos</h5>
-                        <div className="d-flex gap-3">
-                            <a href="#" className="text-white">Facebook</a>
-                            <a href="#" className="text-white">Twitter</a>
-                            <a href="#" className="text-white">Instagram</a>
-                        </div>
+                    <h5>Síguenos</h5>
+                    <div className="d-flex gap-3">
+                        <a  className="text-white">
+                        <i className="fab fa-facebook-f"></i>
+                        </a>
+                        <a  className="text-white">
+                        <i className="fab fa-twitter"></i>
+                        </a>
+                        <a  className="text-white">
+                        <i className="fab fa-instagram"></i>
+                        </a>
                     </div>
+                    </div>
+
                 </div>
                 <div className="text-center mt-3">
                     <p className="mb-0">© 2025 Series App. Todos los derechos reservados.</p>
